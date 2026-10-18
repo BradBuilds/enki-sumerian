@@ -1,0 +1,61 @@
+tablets 79660 lines 1191371
+runs of count signs 778130 | not touching a break or an unconfirmed sign 673286
+
+== 1. order of kinds in a run (blocks of the same kind merged): [('V', 497200), ('K', 102249), ('KV', 57125), ('VK', 11384), ('VKV', 3994), ('KVK', 1215), ('VKVK', 57), ('KVKV', 43), ('VKVKV', 8), ('KVKVK', 6)]
+   same kind written as 2+ signs side by side, per block: [(1, 736542), (2, 15668), (3, 364), (4, 17), (5, 13)]
+
+== 2. totals by place. A cap would show as a hard stop.
+   run V     block 1 (V): 497200 runs | totals [(1, 125947), (2, 78991), (3, 159806), (4, 38359), (5, 47351), (6, 22431), (7, 9799), (8, 10141), (9, 3323), (10, 358), (11, 254), (12, 194), (13, 110), (14, 49), (15, 42), (16, 21), (17, 10), (18, 3), (20, 10), (24, 1)]
+   run K     block 1 (K): 102249 runs | totals [(1, 24060), (2, 10834), (3, 10019), (4, 3830), (5, 3116), (6, 624), (7, 351), (8, 276), (9, 184), (10, 47629), (11, 656), (12, 375), (13, 180), (14, 66), (15, 28), (17, 1), (20, 18), (22, 1), (23, 1)]
+   run KV    block 1 (K):  57125 runs | totals [(1, 28089), (2, 13828), (3, 5129), (4, 3456), (5, 2507), (6, 10), (7, 1), (8, 5), (10, 4004), (11, 64), (12, 11), (13, 11), (14, 8), (15, 2)]
+   run KV    block 2 (V):  57125 runs | totals [(1, 7751), (2, 8732), (3, 7716), (4, 7061), (5, 9291), (6, 5900), (7, 4473), (8, 4838), (9, 1306), (10, 25), (11, 12), (12, 14), (13, 2), (14, 2), (15, 1), (17, 1)]
+   run VK    block 1 (V):  11384 runs | totals [(1, 2103), (2, 1556), (3, 1783), (4, 2070), (5, 1092), (6, 1064), (7, 711), (8, 576), (9, 421), (10, 5), (11, 2), (12, 1)]
+   run VK    block 2 (K):  11384 runs | totals [(1, 1084), (2, 1052), (3, 1119), (4, 837), (5, 625), (6, 5), (7, 2), (10, 6573), (11, 20), (12, 13), (13, 21), (14, 19), (15, 8), (20, 5), (22, 1)]
+   run VKV   block 1 (V):   3994 runs | totals [(1, 82), (2, 39), (3, 377), (4, 947), (5, 705), (6, 611), (7, 473), (8, 423), (9, 337)]
+   run VKV   block 2 (K):   3994 runs | totals [(1, 1185), (2, 732), (3, 662), (4, 673), (5, 628), (6, 1), (10, 111), (11, 2)]
+   run VKV   block 3 (V):   3994 runs | totals [(1, 402), (2, 555), (3, 454), (4, 495), (5, 887), (6, 417), (7, 339), (8, 326), (9, 103), (10, 5), (11, 3), (12, 2), (13, 3), (15, 2), (17, 1)]
+   run KVK   block 1 (K):   1215 runs | totals [(1, 798), (2, 341), (3, 29), (4, 26), (5, 15), (8, 1), (10, 3), (11, 2)]
+   run KVK   block 2 (V):   1215 runs | totals [(1, 104), (2, 246), (3, 119), (4, 156), (5, 344), (6, 54), (7, 57), (8, 127), (9, 8)]
+   run KVK   block 3 (K):   1215 runs | totals [(1, 22), (2, 2), (3, 9), (4, 4), (5, 1), (6, 1), (7, 1), (10, 1174), (11, 1)]
+
+   single hook signs, by what follows them in the run:
+     then down wedges   [(1, 30225), (2, 14943), (3, 5857), (4, 4187), (5, 3171), (6, 6), (8, 5), (10, 4129)]
+     end of run         [(1, 25298), (2, 11924), (3, 11182), (4, 4678), (5, 3745), (6, 610), (7, 353), (8, 275), (9, 184), (10, 56665)]
+     then hooks         [(1, 602), (2, 368), (3, 217), (4, 84), (5, 40), (10, 279)]
+   single down-wedge signs, by what comes before them:
+     start of run       [(1, 131167), (2, 81435), (3, 168806), (4, 41456), (5, 48837), (6, 17500), (7, 9849), (8, 9997), (9, 3597)]
+     after hooks        [(1, 8337), (2, 9615), (3, 8369), (4, 7751), (5, 10538), (6, 6362), (7, 4855), (8, 5292), (9, 1404)]
+     after down wedges  [(1, 1080), (2, 520), (3, 9219), (4, 2042), (5, 817), (6, 422), (7, 313), (8, 330), (9, 166)]
+
+== 3. sums. Tablets whose lines start with numbers, clean, 3+ such lines: 23108
+   part A: value of one hook, with no leading down-wedge block (runs K, KV, V only count; L unused):
+     hook =  2   tablets 23010   sums found   593   in shuffled order   514.0   excess  +3.8 spreads
+     hook =  3   tablets 23010   sums found   806   in shuffled order   675.9   excess  +6.4 spreads
+     hook =  4   tablets 23010   sums found   833   in shuffled order   708.6   excess  +7.3 spreads
+     hook =  5   tablets 23010   sums found  1024   in shuffled order   842.9   excess  +7.7 spreads
+     hook =  6   tablets 23010   sums found  1008   in shuffled order   841.9   excess  +7.4 spreads
+     hook =  7   tablets 23010   sums found   958   in shuffled order   743.9   excess +12.5 spreads
+     hook =  8   tablets 23010   sums found   966   in shuffled order   777.5   excess +10.4 spreads
+     hook =  9   tablets 23010   sums found  1032   in shuffled order   784.5   excess +21.0 spreads
+     hook = 10   tablets 23010   sums found  1537   in shuffled order  1001.5   excess +16.9 spreads
+     hook = 11   tablets 23010   sums found  1024   in shuffled order   846.8   excess +10.5 spreads
+     hook = 12   tablets 23010   sums found   931   in shuffled order   805.2   excess  +9.8 spreads
+     hook = 13   tablets 23010   sums found   864   in shuffled order   739.9   excess  +4.4 spreads
+     hook = 14   tablets 23010   sums found   829   in shuffled order   708.4   excess +10.9 spreads
+     hook = 15   tablets 23010   sums found   828   in shuffled order   657.0   excess +15.8 spreads
+     hook = 16   tablets 23010   sums found   776   in shuffled order   638.4   excess +12.7 spreads
+     hook = 17   tablets 23010   sums found   729   in shuffled order   615.8   excess  +3.7 spreads
+     hook = 18   tablets 23010   sums found   734   in shuffled order   593.1   excess +12.6 spreads
+     hook = 19   tablets 23010   sums found   688   in shuffled order   580.8   excess  +5.2 spreads
+     hook = 20   tablets 23010   sums found   683   in shuffled order   547.0   excess  +7.3 spreads
+   part B: hook = 10, value of a leading down wedge (place above the hooks):
+     lead =  20   sums found  1559   shuffled  1017.0   excess +22.4 spreads
+     lead =  30   sums found  1550   shuffled  1021.0   excess +30.3 spreads
+     lead =  40   sums found  1552   shuffled  1003.4   excess +20.0 spreads
+     lead =  50   sums found  1542   shuffled  1003.9   excess +31.4 spreads
+     lead =  60   sums found  1544   shuffled  1006.5   excess +27.9 spreads
+     lead =  70   sums found  1544   shuffled  1004.8   excess +17.5 spreads
+     lead =  80   sums found  1542   shuffled  1002.2   excess +19.0 spreads
+     lead =  90   sums found  1542   shuffled  1001.9   excess +27.6 spreads
+     lead = 100   sums found  1542   shuffled  1008.8   excess +19.8 spreads
+     lead = 120   sums found  1541   shuffled   986.6   excess +25.4 spreads

@@ -1,0 +1,54 @@
+== A. ladders in the confirmed set and their gaps (1 to 9)
+   held-out font signs with a detector shape: 684 | of them used in the Ur III text: 1
+   unit 1K6: confirmed counts [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | gaps []
+      held-out signs that fit: {2: ['12471']}
+   unit 1V: confirmed counts [1, 2, 3, 4, 5, 6, 7, 8, 9] | gaps []
+      held-out signs that fit: {1: ['12470'], 3: ['12449'], 4: ['1243E', '1243F'], 6: ['12001'], 7: ['12153', '12443'], 8: ['12444']}
+   unit 1H: confirmed counts [1, 2, 3, 4, 5, 6, 7, 8, 9] | gaps []
+      held-out signs that fit: {3: ['1203C', '1243A', '1243B', '124DF'], 4: ['121F9', '1243D'], 6: ['122B8', '12440'], 7: ['12441'], 8: ['12445'], 9: ['12447']}
+   unit 1H+1V: confirmed counts [1, 2, 3, 4, 5, 6, 7, 8, 10] | gaps [9]
+      held-out signs that fit: {1: ['12470~'], 2: ['121D7~'], 3: ['121D4~', '12343~', '12466~', '1250D'], 6: ['124C2~']}
+   unit 2D+1R+1Ur: confirmed counts [2, 3, 4, 5, 6, 7, 8, 9] | gaps [1]
+      held-out signs that fit: {3: ['12425']}
+   unit 1D: confirmed counts [1, 2, 3, 4, 5, 6] | gaps [7, 8, 9]
+   unit 1K6+1V: confirmed counts [1, 2, 3, 4, 5] | gaps [6, 7, 8, 9]
+      held-out signs that fit: {1: ['12470~']}
+   unit 1H+2V: confirmed counts [2, 3, 4, 5] | gaps [1, 6, 7, 8, 9]
+      held-out signs that fit: {2: ['121D7~'], 3: ['12008~']}
+   unit 1D+1H: confirmed counts [1, 2, 3, 4] | gaps [5, 6, 7, 8, 9]
+   unit 1H+1K6: confirmed counts [1, 2, 3, 4] | gaps [5, 6, 7, 8, 9]
+   unit 1H+3V: confirmed counts [2, 3, 4, 5] | gaps [1, 6, 7, 8, 9]
+      held-out signs that fit: {1: ['121D7~', '12449~'], 2: ['12008'], 4: ['120F9']}
+   unit 2D+1K6+1R+1Ur: confirmed counts [1, 2, 3, 4] | gaps [5, 6, 7, 8, 9]
+   unit 2H+1V: confirmed counts [1, 2, 3] | gaps [4, 5, 6, 7, 8, 9]
+      held-out signs that fit: {2: ['121D4~', '12343~', '12375', '12453~', '12465', '12466~'], 3: ['121CE~', '122C5', '12348~', '1236F~'], 4: ['120B0~', '120B2', '1233D~'], 5: ['12516~']}
+   unit 3H+2V: confirmed counts [1, 2, 4] | gaps [3, 5, 6, 7, 8, 9]
+      held-out signs that fit: {1: ['12375~', '12465~', '1250D~'], 2: ['122C5~', '1236F'], 3: ['120A7~', '12516~']}
+   unit 1D+1H+1U+1V: confirmed counts [1, 2, 3] | gaps [4, 5, 6, 7, 8, 9]
+      held-out signs that fit: {1: ['124D9~'], 3: ['1235B~']}
+   unit 2D+1K6+2U: confirmed counts [1, 2, 3] | gaps [4, 5, 6, 7, 8, 9]
+      held-out signs that fit: {1: ['12136']}
+   unit 1H+2K6+1V: confirmed counts [1, 2, 5] | gaps [3, 4, 6, 7, 8, 9]
+   gaps predicted 64, filled by a held-out sign 4  (~ = fits with one wedge of slip)
+
+== B. signs that are other confirmed signs side by side (left-right) or stacked (top-bottom), same wedges and sizes
+   found: 38 of 541
+   most used building parts: [('12079', 26), ('1222B', 21), ('12038', 11), ('1230B', 8), ('122F0', 4), ('12401', 4), ('12418', 3), ('1241F', 3), ('1240F', 3), ('12402', 2), ('12357', 2), ('1203E', 1)]
+   left+right pairs: 15 used, 8 different first parts x 7 different second parts = 56 possible -> 26.8% of the possible pairs are used
+   top+bottom pairs: 13 used, 12 different first parts x 9 different second parts = 108 possible -> 12.0% of the possible pairs are used
+   examples: [('12000', 'x', ['12079', '1222B']), ('1222B', 'x', ['12079', '12079']), ('1240A', 'x', ['12079', '12079', '12079', '12079', '12079']), ('12408', 'x', ['12079', '12079', '12079']), ('12409', 'x', ['1222B', '1222B']), ('12399', 'x', ['1230B', '1230B']), ('121F2', 'x', ['12079', '12038']), ('1240B', 'x', ['1222B', '1222B', '1222B']), ('1230D', 'x', ['1230B', '1230B', '1230B']), ('120F2', 'x', ['1203E', '12038']), ('1240D', 'x', ['1222B', '1222B', '1222B', '1222B']), ('12228', 'x', ['12079', '12038']), ('1240C', 'x', ['12079', '12079', '12079', '12079', '12079', '12079', '12079']), ('12456', 'y', ['12079', '12079']), ('12129', 'x', ['1222B', '1230B', '1222B', '1230B'])]
+
+== C. how alike two signs are in the text (0 = nothing in common, 1 = same neighbours), 359 signs used 200+ times, 64261 pairs
+   shape distance 0-0: pairs      5, context alike 0.082
+   shape distance 1-1: pairs     71, context alike 0.243
+   shape distance 2-2: pairs    133, context alike 0.157
+   shape distance 3-4: pairs    850, context alike 0.084
+   shape distance 5-8: pairs   6375, context alike 0.048
+   shape distance 9-15: pairs  25525, context alike 0.043
+   shape distance 16-999: pairs  31302, context alike 0.042
+   pairs sharing a ladder: 851, context alike 0.137 | unrelated pairs at the same shape distance 0.053
+   pairs sharing a part: 43, context alike 0.038 | unrelated pairs at the same shape distance 0.056
+   rank correlation, shape distance vs context alike: -0.001 (0 = shape tells nothing about context)
+   one change apart but unalike in the text: [('121B8', '121E5', 0.0), ('12039', '120F5', 0.0), ('12451', '1203E', 0.0), ('121B8', '121AA', 0.0), ('121B8', '12089', 0.01), ('12039', '1227D', 0.01), ('12000', '12456', 0.01), ('12125', '12111', 0.01), ('121AA', '12247', 0.02), ('12111', '121B8', 0.02)]
+   one change apart and alike: [('12451', '12452', 0.65), ('12400', '12401', 0.67), ('1240B', '1240C', 0.71), ('12419', '1241A', 0.75), ('1241B', '1241C', 0.76), ('12405', '12406', 0.83), ('12402', '12403', 0.85), ('12412', '12413', 0.89)]
+   very different shapes but alike in the text: [('12434', '12436', 10, 0.91), ('12404', '12407', 9, 0.9), ('12423', '12424', 9, 0.86), ('12420', '12422', 10, 0.84), ('12406', '12407', 9, 0.84), ('1241F', '12422', 10, 0.83), ('12420', '12421', 10, 0.83), ('12422', '12435', 20, 0.79), ('12421', '12435', 18, 0.78), ('1241E', '12422', 10, 0.77)]

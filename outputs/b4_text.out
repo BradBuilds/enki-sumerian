@@ -1,0 +1,28 @@
+complete lines (no break, no damage): 938258 on 78791 tablets
+
+== 1. line length in signs (number runs count as one): [(1, 9527), (2, 79381), (3, 164840), (4, 191512), (5, 161897), (6, 126305), (7, 70888), (8, 50540), (9, 29264), (10, 17737), (11, 10171), (12, 5596), (13, 4512), (14, 2707), (15, 5884), (16, 1405)]
+
+== 2. symbols in use: 970 | top 10 cover 34.5%, top 100 cover 83.2% | rank-frequency slope over ranks 1-1000: -3.15 | N is 14.1% of all tokens
+
+== 3. bits per symbol: on its own 6.33 | knowing the one before, real order 4.28 | same lines shuffled 5.69
+   share of the uncertainty removed by order: 25%
+
+== 4. how predictable each position is (bits; lower = more fixed). Lines of 3+ symbols.
+   real      pos 1: 4.95 | pos 2: 6.55 | pos 3: 6.81 | pos 4: 6.85 | last: 6.62
+   shuffled  pos 1: 6.81 | pos 2: 6.81 | pos 3: 6.81 | pos 4: 6.81 | last: 6.82
+   real first symbol, most common: [('N', '29.4%'), ('o0000457', '7.2%'), ('o0002520', '5.6%'), ('o0002845', '5.3%'), ('o0000279', '5.1%')]
+
+== 5. layouts (N = number, s = any other sign): 3098 different | top 5 cover 41.5%, top 20 cover 72.4%
+   most common: [('s s s s', 105031), ('s s s', 96938), ('s s s s s', 76149), ('s s', 57591), ('s s s s s s', 53901), ('N s s s', 38672), ('N s s', 34750), ('N s s s s', 28811)]
+   shuffled: top 5 cover 41.5%
+
+== 6. the symbol right after a number: 555 different, 6.16 bits (any non-number symbol: 7.23 bits); top 5 cover 32.5%
+   right before a number: 6.31 bits; top 5 cover 27.8%
+
+== 7. lines whose exact symbol sequence also appears on another tablet: 78.9%
+   among lines with no number: 83.9% | distinct lines: 244081 of 938258
+
+== 8. branching: different next symbols after a given start of line (median over starts seen 50+ times)
+   after 1: starts 264, median different next 32, median 3.09 bits
+   after 2: starts 1353, median different next 15, median 2.19 bits
+   after 3: starts 1775, median different next 9, median 1.49 bits
